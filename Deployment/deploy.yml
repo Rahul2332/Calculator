@@ -1,0 +1,18 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: localhost
+  #  vars:
+  #    ansible_python_interpreter: /Users/rahuljain/.pyenv/versions/3.11.6/bin/python3
+  tasks:
+    - name: Pull image
+      docker_image:
+        name: rj2332/calculator:latest
+        source: pull
+    - name: Start docker service
+      command: open /Applications/Docker.app
+    #      service:
+    #        name: docker
+    #        state: started
+
+    - name: Running container
+      shell: /usr/local/bin/docker run -it -d --name Calculator rj2332/calculator

@@ -1,0 +1,12 @@
+2023-11-06 22:54:19.522 [main] INFO  org.example.Main - Start of Execution
+2023-11-06 22:56:05.235 [main] INFO  org.example.Main - Start of Execution
+2023-11-06 22:56:11.102 [main] INFO  org.example.Main - Addition
+2023-11-06 22:56:13.166 [main] INFO  org.example.Main - Subtraction
+2023-11-06 22:56:15.362 [main] INFO  org.example.Main - Multiplication
+2023-11-06 22:56:18.450 [main] INFO  org.example.Main - Division
+2023-11-06 22:56:21.345 [main] INFO  org.example.Main - EXIT command
+2023-11-06 22:56:21.346 [main] INFO  org.example.Main - End of Execution
+2023-11-06 23:15:37.611 [main] INFO  org.example.Main - Start of Execution
+2023-11-06 23:15:42.282 [main] INFO  org.example.Main - Addition
+2023-11-06 23:15:43.987 [main] INFO  org.example.Main - EXIT command
+2023-11-06 23:15:43.987 [main] INFO  org.example.Main - End of Execution

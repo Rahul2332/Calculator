@@ -11,9 +11,7 @@ import java.util.Scanner;
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
-    public int add(int a, int b){
-        return (a+b);
-    }
+    public int add(int a, int b){ return (a+b); }
     public int sub(int a, int b){
         return (a-b);
     }
@@ -21,6 +19,9 @@ public class Main {
         return (a*b);
     }
     public int div(int a, int b){
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
+        }
         return (a/b);
     }
     public static void main(String[] args) {
